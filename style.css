@@ -1,0 +1,41 @@
+body {
+    background-color: #f5edf5; /* background-color é a propriedade da cor do plano de fundo */
+    color: #ffa600; ; /* color é a propriedade da cor do texto */
+    background-image: url(livro.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 40px;
+    text-decoration: underline;
+
+}
+
+img {
+    width: 40px;
+}
+
+.font-20px {
+    font-size: 20px;
+    
+}
+
+#estilo-unico {
+    border: 2px solid black;
+    background-color: #3f3f3f;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 10px;
+    box-shadow: 0 0 20px #fff;
+}
+
+/* id é chamado por # */
+
+/* class é chamada por . (ponto) */
+
+
+
