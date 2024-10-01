@@ -1,0 +1,50 @@
+:root {
+    --cor-preto: #191516; /*criar variaveis*/
+    --cor-branco: #ffffff;
+    --cor-azul-escurinho: #187795;
+    --cor-azul-duvidoso: #6153CC;
+    --cor-azul-clarinho: #c4e7ee;
+}
+
+
+body {
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+}
+
+
+/*
+ :link
+ :active
+ :visited
+ :hover
+*/
+
+header nav a.item-menu {
+    color: var(--cor-azul-clarinho);
+    text-decoration: none;
+    border: var(--cor-branco) 1px solid;
+    padding: 5px 10px;
+}
+
+header nav a.item-menu:hover {
+    background-color: var(--cor-azul-duvidoso);
+}
+
+header nav a.item-menu.item-ativo {
+    background-color: var(--cor-azul-duvidoso);
+}
+
+header nav a.item-menu:active {
+    background-color: var(--cor-azul-escurinho);
+}
+
+
+section {
+    min-height: 500px; /* altura minima */
+}
+
+
+
+
+
