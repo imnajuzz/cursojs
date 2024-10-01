@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+
+        <h1>Meu site</h1>
+        <nav>
+            <!-- a=fazer ligação com o site, href=link -->
+            <a class="item-menu" href="#sobre-nos">Sobre Nós</a>
+            <a class="item-menu item-ativo" href="#contato">Contato</a>
+        </nav>
+
+        <section id="sobre-nos">
+            <h1>
+                Seja bem-vindo pessoinha ao meu site html. <br>
+                Me chamo Ana Júlia, tenho 18 anos e aqui você verá <br>
+                o meu primeiro projeto com estilização e um menu bonito.
+            </h1>
+        </section>
+        <section id="contato">
+            <h2 class="item-menu">
+                Me siga nas redes sociais para saber mais sobre meu projeto.
+            </h2>
+        </section>
+    </header>
+
+    <script type="text/javascript">
+        const menuSobre = document.getElementsById('menu-sobre');
+        /* const é varíavel */ /* document é página */
+
+        const menuContato = document.querySelector('menu-contato');
+
+        menuSobre.addEventListener('click', function() {
+            menuSobre.classList.toggle('item-ativo');
+        });
+
+        menuContato.addEventListener('click', function() {
+            menuContato.classList.toggle('item-ativo');
+        });
+    </script>
+
+</body>
+</html>
